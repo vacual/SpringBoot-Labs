@@ -1,0 +1,19 @@
+spring:
+  application:
+    name: spring-boot-admin
+  cloud:
+    nacos:
+      discovery:
+        server-addr: ${NACOS_URL}
+        ip: ${HOST:}
+        port: ${PORT_80:${server.port:}}
+        namespace: ${NACOS_NAMESPACE}
+        group: ${TV_IDC}
+      config:
+        server-addr: ${NACOS_URL}
+        file-extension: yaml
+        namespace: ${NACOS_NAMESPACE}
+        group: ${TV_IDC}
+        enabled: true
+      filter:
+        enabled: false

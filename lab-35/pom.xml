@@ -24,6 +24,8 @@
 
         <module>lab-35-admin-04-adminserver</module>
         <module>lab-35-admin-05-adminserver</module>
+        <module>lab-35-admin-06-nacos-v</module>
+        <module>lab-35-admin-06-nacos-reg-application</module>
     </modules>
 
 
